@@ -4,4 +4,6 @@ public class WordPattern290 {
 	String str = "dog cat cat dog";
 	
 	
+	
+	
 }
