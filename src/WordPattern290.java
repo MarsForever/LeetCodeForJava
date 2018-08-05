@@ -1,9 +1,12 @@
 
 public class WordPattern290 {
-	String pattern = "abba";
-	String str = "dog cat cat dog";
 	
-	
-	
-	
+	public static void main(String[] args) {
+		String pattern = "abba";
+		String str = "dog cat cat dog";
+
+		Solution290 test= new Solution290();
+		System.out.println(test.wordPattern(pattern, str));
+	}
+		
 }
