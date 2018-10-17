@@ -1,4 +1,5 @@
-class Solution807 {
+package Solutions;
+public class Solution807 {
     public int maxIncreaseKeepingSkyline(int[][] grid) {
             int[] lrSkyline=new int[grid.length];
 	        int[] tbSkyline=new int[grid.length];

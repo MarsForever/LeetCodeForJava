@@ -1,3 +1,6 @@
+package Execute;
+import Solutions.Solution872;
+
 
 //input
 //[3,5,1,6,2,9,8,null,null,7,4]

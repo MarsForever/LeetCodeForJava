@@ -1,4 +1,5 @@
-
+package Execute;
+import Solutions.Solution796;
 
 public class RotateString796 {
 	public static void main(String[] args) {

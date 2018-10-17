@@ -1,5 +1,6 @@
+package Solutions;
 
-class Solution872 {
+public class Solution872 {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         // root1 equals null
         //if root2 equals null return true

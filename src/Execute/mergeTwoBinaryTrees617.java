@@ -1,3 +1,6 @@
+package Execute;
+import Solutions.Solution617;
+
 
 public class mergeTwoBinaryTrees617 {
 	Solution617 test = new Solution617();

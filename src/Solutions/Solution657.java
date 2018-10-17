@@ -1,4 +1,5 @@
-class Solution657 {
+package Solutions;
+public class Solution657 {
 	public boolean judgeCircle(String moves) {
 		if (moves == null) {
 			return true;

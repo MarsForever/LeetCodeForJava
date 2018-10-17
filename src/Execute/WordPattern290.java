@@ -1,3 +1,5 @@
+package Execute;
+import Solutions.Solution290;
 
 public class WordPattern290 {
 	

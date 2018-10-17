@@ -1,3 +1,5 @@
+package Execute;
+import Solutions.Solution654_2;
 
 public class MaximumBinaryTree654 {
 	public static void main(String[] args) {
