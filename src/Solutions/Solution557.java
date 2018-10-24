@@ -3,10 +3,10 @@ package Solutions;
 public class Solution557 {
 	public String reverseWords(String s) {
 		String[] word = s.split(" ");
-		s = "";
+		StringBuilder sb = new StringBuilder();
 		for(int i = 0 ; i < word.length; i++) {
-			s += new  StringBuilder(word[i]).reverse().toString() + " ";
+			sb.append(new  StringBuilder(word[i]).reverse().toString() + " ");
 		}
-		return s.trim();
+		return sb.toString().trim();
 	}
 }
