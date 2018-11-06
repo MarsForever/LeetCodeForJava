@@ -2,12 +2,19 @@ package Solutions;
 
 public class Solution852 {
     public int peakIndexInMountainArray(int[] A) {
-        int i = 1;
-        for( ; i < A.length ; i++){
-            if(A[i] > A[i+1] ){
-                return i;                
-            }
+//    	sample 1 ms submission
+        int left = 0;
+        int right = A.length - 1;
+        while(left < right){
+        	//find the middle array
+        	int mid = left + (right - left)/2;
+        	//f 
+            if(A[mid] < A[mid+1])
+                left = mid + 1;
+            else
+                right = mid;
         }
-        return i;
+        
+        return left;
     }
 }

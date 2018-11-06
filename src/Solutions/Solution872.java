@@ -1,5 +1,7 @@
 package Solutions;
 
+import Execute.TreeNode;
+
 public class Solution872 {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         // root1 equals null
