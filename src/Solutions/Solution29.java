@@ -26,3 +26,8 @@ public class Solution29 {
 		  return q;
 	}
 }
+
+
+//https://www.cnblogs.com/youxin/p/3295649.html
+//https://www.networkworld.com/article/3010974/linux/whats-so-special-about-2147483648.html
+//https://stackoverflow.com/questions/42462352/why-is-2147483648-2147483648-in-a-32-bit-machine
