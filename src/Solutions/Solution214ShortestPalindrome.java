@@ -7,8 +7,9 @@ public class Solution214ShortestPalindrome {
 	     int[] size = new int[str.length()];
 	     for(int i = 1; i < str.length(); i++){
 	         int temp = size[i - 1];
-	         while(temp != 0 && str.charAt(temp) != str.charAt(i))
-	             temp = size[temp - 1];
+	         while(temp != 0 && str.charAt(temp) != str.charAt(i)){
+				 temp = size[temp - 1];
+			 }
 	         if(str.charAt(temp) == str.charAt(i))
 	             temp++;
 	         size[i] = temp;
@@ -17,7 +18,9 @@ public class Solution214ShortestPalindrome {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		String str1 = "aacecaaa";
+		Solution214ShortestPalindrome test = new Solution214ShortestPalindrome();
+		System.out.println(test.shortestPalindrome(str1));
 	}
 
 }
