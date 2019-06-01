@@ -2,7 +2,7 @@ package Solutions;
 
 import java.util.HashMap;
 
-public class Solution387FirstUniqueCharacterInAString {
+public class Solution387FirstUniqueCharacterInAString{
     public int firstUniqChar(String s) {
         HashMap<Character, Integer> count = new HashMap<Character, Integer>();
         int n = s.length();
