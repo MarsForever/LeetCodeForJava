@@ -26,3 +26,5 @@ public class Solution387FirstUniqueCharacterInAString {
 
     }
 }
+//Your runtime beats 34.47 % of java submissions.
+//Your memory usage beats 99.47 % of java submissions.
