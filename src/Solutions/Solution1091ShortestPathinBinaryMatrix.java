@@ -55,3 +55,6 @@ public class Solution1091ShortestPathinBinaryMatrix {
         System.out.println(test.shortestPathBinaryMatrix(data));
     }
 }
+//https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/314546/Java-BFS
+//Runtime: 21 ms, faster than 56.67% of Java online submissions for Shortest Path in Binary Matrix.
+//Memory Usage: 48.7 MB, less than 100.00% of Java online submissions for Shortest Path in Binary Matrix.
